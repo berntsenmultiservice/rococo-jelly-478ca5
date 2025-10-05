@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berntsen Multiservice - Din pålitelige servicepartner</title>
+    <meta name="description" content="Berntsen Multiservice tilbyr profesjonelle tjenester innen service, vedlikehold og konsulenttjenester. Kontakt oss for en tilbud.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 4rem 0;
+        }
+        
+        .intro {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .intro h2 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        
+        .intro p {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-top: 4px solid #3498db;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+        
+        .service-card h3 {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .service-card p {
+            color: #666;
+            line-height: 1.7;
+        }
+        
+        .contact-section {
+            background: #2c3e50;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            margin-top: 4rem;
+        }
+        
+        .contact-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        .footer p {
+            margin: 0.5rem 0;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .intro h2 {
+                font-size: 1.8rem;
+            }
+            
+            .services {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Berntsen Multiservice</h1>
+            <p>Din pålitelige partner for alle dine servicebehov</p>
+        </div>
+    </header>
+
+    <main class="content">
+        <div class="container">
+            <div class="intro">
+                <h2>Velkommen til Berntsen Multiservice</h2>
+                <p>Vi er en profesjonell servicebedrift som tilbyr omfattende tjenester innenfor flere områder. Med lang erfaring og dedikert personale sikrer vi høy kvalitet og pålitelighet i alt vi gjør. Kontakt oss for en uforpliktende tilbud.</p>
+            </div>
+            
+            <div class="services">
+                <div class="service-card">
+                    <h3>🔧 Service & Vedlikehold</h3>
+                    <p>Profesjonell service og vedlikehold av utstyr og maskineri. Vi sikrer at ditt utstyr fungerer optimalt og har lengst mulig levetid gjennom regelmessig vedlikehold og reparasjoner.</p>
+                </div>
+                <div class="service-card">
+                    <h3>💼 Konsulenttjenester</h3>
+                    <p>Ekspertråd og konsulenttjenester for din bedrift. Vi hjelper deg med å optimalisere prosesser, forbedre effektivitet og ta informerte beslutninger basert på vår omfattende erfaring.</p>
+                </div>
+                <div class="service-card">
+                    <h3>🛠️ Teknisk Support</h3>
+                    <p>Pålitelig teknisk support og kundeservice. Vårt team står til disposisjon for å hjelpe deg med tekniske utfordringer og sikre minimal nedetid for din bedrift.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2>Kontakt oss i dag</h2>
+            <p>Vi ser frem til å høre fra deg og hjelpe deg med dine servicebehov.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>📧</span>
+                    <span>post@berntsen-multiservice.no</span>
+                </div>
+                <div class="contact-item">
+                    <span>🌐</span>
+                    <span>www.berntsen-multiservice.no</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Berntsen Multiservice. Alle rettigheter forbeholdt.</p>
+            <p>Profesjonelle tjenester du kan stole på</p>
+        </div>
+    </footer>
+</body>
+</html>
